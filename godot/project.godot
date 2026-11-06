@@ -1,0 +1,31 @@
+; Vigília do Musgo — original academic prototype
+config_version=5
+
+[application]
+config/name="Vigília do Musgo"
+config/description="Uma pequena expedição que cresce com o tempo."
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+config/icon="res://assets/icon.png"
+
+[autoload]
+Session="*res://scripts/core/game_session.gd"
+
+[display]
+window/size/viewport_width=480
+window/size/viewport_height=840
+window/size/window_width_override=480
+window/size/window_height_override=840
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=6
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.039, 0.067, 0.09, 1)
+
+[audio]
+driver/enable_input=false
