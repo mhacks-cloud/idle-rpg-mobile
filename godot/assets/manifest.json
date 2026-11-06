@@ -1,0 +1,29 @@
+{
+  "generator": "tools/generate_assets.py",
+  "seed": 417203,
+  "license": "CC0-1.0",
+  "sprite_frame_size": [
+    24,
+    24
+  ],
+  "sprite_frames": [
+    "idle",
+    "step",
+    "attack",
+    "recover"
+  ],
+  "files": {
+    "archer.png": "6e3574cec4fea2a06af165821ed76f6c7f34b2c3e5e141694d10103076193199",
+    "attack.wav": "294157587dd4e10f0c279067e90228eebe721634357e122ee643a13997348c67",
+    "bark_mite.png": "c9852b97bd27ed3b1020b5cb9510fbdfcd1beafd4ca7e8b39742309b4a566f71",
+    "dew_slime.png": "6b9e3a86781dd84b9e7b622253510671131751cc5f5210b3c2b90f7eef58f7ca",
+    "forest.png": "33e325bf68519669dae5b5853040cfa4562b4871cdeec3573c9414b81cc54cd7",
+    "healer.png": "5c2ea7b8a9bcf0bb53431d5c1bf1f9d59de29a65c6e9f87fb4eca6233889ac69",
+    "icon.png": "027712395451dd99636429392b91ca688609cb77ed97ccdab3b188583da82fcd",
+    "lantern_moth.png": "c5a8f76113b80698efa86043c6ebec090ba21c0ffb4d8a2438ccfe4d132fe325",
+    "mage.png": "b79e73681e45accf5c65b69674972593ac3d55251ebde6f7e4f0dbc1a60540dd",
+    "root_guardian.png": "e3c65640c64d5efc6cc4892cf3cfb2239a8fc16cb6853459494421c1dbe5af5b",
+    "victory.wav": "96825152f07914e6391db99db26f9385a7dd730da08af9cc9c10cc3f0db69552",
+    "warrior.png": "0f91540d81f9290cfdaa71a5be5458bb7928fc56bd375431226584fec0ef3801"
+  }
+}

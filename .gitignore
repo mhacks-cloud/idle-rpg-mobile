@@ -1,0 +1,29 @@
+# Godot generated cache (UID files are source metadata and are kept)
+.godot/
+.import/
+# Build and local machine files
+.gradle/
+.gradle-cache/
+**/build/
+local.properties
+*.apk
+*.aab
+*.pck
+*.aar
+*.log
+# Private credentials / signing
+.env
+.env.*
+*.jks
+*.keystore
+keystore.properties
+credentials*.json
+service-account*.json
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+*.tmp
+__pycache__/
+# Locally downloaded SDK / engine never belong in source
+toolchain/

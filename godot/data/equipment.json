@@ -1,0 +1,8 @@
+{
+  "rarities":[{"id":"common","name":"Comum","color":"b3c4bd","multiplier":1},{"id":"rare","name":"Raro","color":"7eb7ee","multiplier":2},{"id":"epic","name":"Épico","color":"c8a0ed","multiplier":3}],
+  "items":[
+    {"id":"branch_blade","name":"Lâmina de galho","slot":"weapon","attack":3,"defense":0,"hp":0},
+    {"id":"bark_vest","name":"Colete de cortiça","slot":"armor","attack":0,"defense":2,"hp":12},
+    {"id":"dew_amulet","name":"Pingente de orvalho","slot":"charm","attack":1,"defense":1,"hp":18}
+  ]
+}

@@ -1,0 +1,6 @@
+[
+  {"id":"dew_slime","name":"Gota errante","hp":30,"attack":6,"defense":1,"xp":12,"gold":5},
+  {"id":"bark_mite","name":"Carrapicho","hp":38,"attack":8,"defense":2,"xp":15,"gold":7},
+  {"id":"lantern_moth","name":"Mariposa-lume","hp":46,"attack":10,"defense":2,"xp":18,"gold":9},
+  {"id":"root_guardian","name":"Ancião do Emaranhado","hp":230,"attack":23,"defense":5,"xp":100,"gold":60,"boss":true}
+]

@@ -1,0 +1,6 @@
+[
+  {"id":"warrior","name":"Guerreiro","title":"Escudo da trilha","hp":120,"attack":12,"defense":5,"skill":"Corte de seiva","skill_kind":"cleave","cooldown":5,"color":"e4a65b","description":"Resistente. Seu corte especial causa dano dobrado."},
+  {"id":"archer","name":"Arqueiro","title":"Olhos da copa","hp":92,"attack":15,"defense":2,"skill":"Flechas gêmeas","skill_kind":"volley","cooldown":4,"color":"91c879","description":"Ataques rápidos e rajadas frequentes."},
+  {"id":"mage","name":"Mago","title":"Leitor de esporos","hp":82,"attack":17,"defense":1,"skill":"Estrela de pólen","skill_kind":"arcane","cooldown":6,"color":"b6a4e8","description":"Sua magia atravessa a defesa dos inimigos."},
+  {"id":"healer","name":"Curandeiro","title":"Guardião da nascente","hp":105,"attack":10,"defense":4,"skill":"Broto vital","skill_kind":"heal","cooldown":4,"color":"73d7c3","description":"Recupera vida com os poderes da floresta."}
+]

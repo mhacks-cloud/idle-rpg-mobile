@@ -1,0 +1,5 @@
+[
+ {"id":"first_watch","name":"Primeira vigília","description":"Vença 5 inimigos.","metric":"kills","target":5,"gold":35,"xp":30},
+ {"id":"root_sentinel","name":"Raízes em paz","description":"Derrote o Ancião do Emaranhado.","metric":"boss_kills","target":1,"gold":120,"xp":80},
+ {"id":"trail_keeper","name":"Guardião da trilha","description":"Vença 30 inimigos.","metric":"kills","target":30,"gold":150,"xp":120}
+]
