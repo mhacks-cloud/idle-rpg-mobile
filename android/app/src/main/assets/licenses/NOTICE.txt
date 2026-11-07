@@ -1,0 +1,22 @@
+Vigília do Musgo 0.1.0 — third-party notices
+
+Godot Engine 4.5.1.stable
+Copyright (c) 2014-present Godot Engine contributors.
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
+MIT license and engine third-party notices: GODOT_LICENSE.txt and GODOT_COPYRIGHT.txt.
+Upstream: https://github.com/godotengine/godot/tree/4.5.1-stable
+
+AndroidX libraries (including Fragment 1.8.6 and Core 1.15.0 and transitive AndroidX libraries)
+Copyright The Android Open Source Project.
+Apache License 2.0: APACHE-2.0.txt.
+Upstream: https://android.googlesource.com/platform/frameworks/support/
+
+Kotlin standard library 2.1.20
+Copyright JetBrains s.r.o. and Kotlin Programming Language contributors.
+Apache License 2.0: APACHE-2.0.txt.
+Upstream: https://github.com/JetBrains/kotlin/tree/v2.1.20
+
+Project source: MIT (PROJECT_LICENSE.txt).
+Original generated images and sounds: CC0 1.0 Universal.
+https://creativecommons.org/publicdomain/zero/1.0/
+No assets from TBH: Task Bar Hero are included.

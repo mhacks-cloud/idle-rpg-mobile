@@ -3,6 +3,8 @@
 .import/
 # Build and local machine files
 .gradle/
+.kotlin/
+*.salive
 .gradle-cache/
 **/build/
 local.properties
