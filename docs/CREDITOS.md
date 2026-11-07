@@ -59,3 +59,7 @@ as fontes padrão das plataformas; nenhum arquivo de fonte foi copiado.
 O histórico Git registra a autoria técnica da implementação; o estudante
 deve identificar na entrega acadêmica a assistência de IA conforme as
 regras de sua instituição.
+
+Os textos de licença e avisos do Godot e das bibliotecas Android/Kotlin são
+incluídos no APK em `assets/licenses/`; os mesmos arquivos estão versionados em
+`android/app/src/main/assets/licenses/`. O PCK não precisa ser alterado para isso.
