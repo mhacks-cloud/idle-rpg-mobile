@@ -2,6 +2,7 @@
 
 Protótipo acadêmico original de RPG idle em pixel art, em português brasileiro.
 Um guardião percorre o Bosque das Luzes enquanto você acompanha sua expedição.
+[Repositório público](https://github.com/mhacks-cloud/idle-rpg-mobile).
 Código Godot/GDScript e Android/Kotlin incluídos, com combate automático, quatro
 classes, dez encontros e um chefe, habilidades, níveis, equipamentos, raridades,
 missões, treino e progresso local. Sem conta, anúncios, telemetria ou servidor.

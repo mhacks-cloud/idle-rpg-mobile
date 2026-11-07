@@ -17,7 +17,7 @@ vieram da execução gráfica do projeto no desktop, com OpenGL Compatibility.
 | Layout gráfico | Retrato e paisagem abertos e inspecionados; capturas incluídas. |
 | Arte e som | Regeneração idêntica, dimensões/transparência PNG, PCM WAV e amplitude conferidos. |
 | Build Android | `testDebugUnitTest lintDebug assembleDebug`: BUILD SUCCESSFUL. |
-| Lint Android | Resultado final e avisos descritos abaixo. |
+| Lint Android | Zero erros, 26 avisos; detalhes abaixo. |
 | Validação em dispositivo | Não executada; `adb devices -l` retornou lista vazia. |
 
 São **138 assertivas Godot e 10 casos de teste JVM**. As assertivas não representam
@@ -73,5 +73,36 @@ A autenticação CLI foi confirmada depois de permitir o acesso de rede; o erro
 inicial da sandbox não era uma credencial inválida. O repositório remoto foi
 verificado antes da criação, sem sobrescrever repositórios existentes.
 
-O resultado da publicação e a identidade do APK são registrados ao final deste
-relatório após a verificação dos artefatos.
+Repositório público criado e branch `main` enviada com sucesso:
+[github.com/mhacks-cloud/idle-rpg-mobile](https://github.com/mhacks-cloud/idle-rpg-mobile).
+A API do GitHub confirmou visibilidade pública e branch padrão `main`. Não foram
+enviados APKs, SDKs, caches, chave debug, saves ou credenciais ao Git.
+
+## Artefato final e lint
+
+- APK debug: `idle-rpg-mobile-debug.apk`, entregue fora da pasta dos fontes.
+- Tamanho: **149.062.761 bytes** (aproximadamente 142,2 MiB).
+- SHA-256: `a6a13559683da86acda9b56412011f8d5d5ba504a7e03feeaa5323d1d8fdb677`.
+- ABIs verificadas no ZIP: `arm64-v8a` e `x86_64`.
+- `assets/game.pck` dentro do APK é idêntico ao pacote final executado no smoke test.
+- Cinco arquivos de licença/notice presentes dentro de `assets/licenses/`.
+- `apksigner verify --verbose`: assinatura v2 válida, um signatário debug.
+- `zipalign -c -P 16 4`: terminou com código 0. Isso verifica alinhamento do APK;
+  não substitui execução em dispositivo com páginas de memória de 16 KiB.
+- Build final após ajustes de manifesto: `lintDebug assembleDebug`, sucesso em
+  52 segundos, 46 tarefas (13 executadas, 33 atualizadas).
+
+O lint terminou com **0 erros e 26 avisos**: nove sugestões de KTX, nove avisos
+sobre textos PT-BR embutidos no renderer nativo, três avisos de versão de
+ferramentas/dependências, três `ImplicitSamInstance` nas chamadas Android
+`stopService(Intent)` (inspecionadas: o argumento é Intent, não listener SAM),
+um sobre `fullUser` e um sobre `Gravity.LEFT` usado para coordenadas físicas de
+arraste. Não foram suprimidos em massa. Internacionalização e refinamento de
+form factors são evoluções; comportamento em dispositivo continua pendente.
+O aviso de extração de dados foi corrigido com configuração explícita de backup
+para versões anteriores ao Android 12 e regras de extração para Android 12+.
+
+A chave de assinatura debug permaneceu apenas no diretório local de ferramentas,
+nunca nos fontes ou no ZIP. O ZIP de fontes contém arquivos versionados e não
+inclui caches de build, o APK ou o histórico `.git`; o histórico está no
+repositório Git local e no GitHub.
